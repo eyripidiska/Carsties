@@ -17,7 +17,6 @@ type State = {
 type Actions = {
     setParams: (params: Partial<State>) => void
     reset: () => void
-    //setSearchValue: (value: string) => void
 }
 
 const initialState: State = {

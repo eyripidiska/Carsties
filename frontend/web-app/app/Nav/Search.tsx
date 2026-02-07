@@ -12,7 +12,7 @@ export default function Search() {
 
     useEffect(() => {
         if (searchTerm === '') {
-            setValue('');
+            //setValue('');
         } 
     }, [searchTerm]);
 
